@@ -95,9 +95,6 @@ def main_window():
     add_user_interface(add_user_frame, treeview)
 
 
-
-
-
 def login_AM():
     def authenticate():
         if user_entry.get().strip() == "admin" and pass_entry.get().strip() == "admin":
